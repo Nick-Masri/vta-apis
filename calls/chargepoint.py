@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-import os
+# import os
 from zeep import Client
 from zeep.wsse.username import UsernameToken
 from zeep.helpers import serialize_object
-import pydeck as pdk
-import datetime
+# import pydeck as pdk
+# import datetime
 
 @st.cache_resource
 def chargepoint_client():
